@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <div id="nav">
+        <div id="logo">
+            <i class="ri-menu-line"></i>
+           <div id="log">
+               <img src="https://i.postimg.cc/JhN3MKgr/you.png" alt="">
+           </div>
+           <h1 class="logtxt">Youtube</h1>
+        </div>
+        <div id="search">
+            <input type="text" id="query" placeholder="Search">
+            <button class="search" onclick="searchVideos()"><i class="ri-search-line"></i></button>
+            <button class="mic"><i class="ri-mic-fill"></i></button>
+        </div>
+        <div id="bell">
+            <i class="ri-video-add-line"></i>
+            <i class="ri-notification-4-line"></i>
+            <i class="ri-account-circle-fill"></i>
+        </div>
+    </div>
+    <div id="container">
+        <div class="sidebar">
+            <div class="sideitem">
+                <a href="#"> <i class="ri-home-5-line"></i>Home</a>
+                <a href="#"> <i class="ri-compass-3-line"></i>Explore</a>
+                <a href="#"> <i class="ri-wireless-charging-line"></i>Shorts</a>
+                <a href="#"> <i class="ri-rss-line"></i>Subscription</a>
+                <hr>
+                <a href="#"> <i class="ri-links-line"></i>Library</a>
+                <a href="#"> <i class="ri-history-line"></i>History</a>
+                <a href="#"> <i class="ri-video-line"></i>Your Videos</a>
+                <a href="#"> <i class="ri-time-line"></i>Watch later</a>
+                <a href="#"> <i class="ri-play-list-2-line"></i>All videos</a>
+                <a href="#"> <i class="ri-arrow-down-s-line"></i>Show more</a>
+                <hr>
+                <div><h4 class="more">More from youtube</h4></div>
+                <a href="#"> <i class="ri-keyboard-box-line"></i>Gaming</a>
+                <a href="#"> <i class="ri-live-line"></i>Live</a>
+                <a href="#"> <i class="ri-award-line"></i>Sports</a>
+                <hr>
+                <a href="#"> <i class="ri-settings-5-line"></i>Settings</a>
+                <a href="#"> <i class="ri-flag-line"></i>Report history</a>
+                <a href="#"> <i class="ri-question-line"></i>Help</a>
+                <a href="#"> <i class="ri-feedback-line"></i>Send feedback</a>
+            </div>
+        </div>
+        <div id="main">
+            <div class="btn">
+                <div id="btnC">
+                    <p>All</p>
+                </div>
+                <div id="btnC">
+                    <p>Editing</p>
+                </div>
+                <div id="btnC">
+                    <p>Live</p>
+                </div>
+                <div id="btnC">
+                    <p>JS</p>
+                </div>
+                <div id="btnC">
+                    <p>C++</p>
+                </div>
+                <div id="btnC">
+                    <p>Python</p>
+                </div>
+                <div id="btnC">
+                    <p>programing</p>
+                </div>
+                <div id="btnC">
+                    <p>Node.js</p>
+                </div>
+                <div id="btnC">
+                    <p>React</p>
+                </div>
+                <div id="btnC">
+                    <p>MongoDb</p>
+                </div>
+               <div id="btnC">
+                    <p>Java</p>
+                </div>
+                <div id="btnC">
+                    <p>T-series</p>
+                </div>
+                <div id="btnC">
+                    <p>Comedy</p>
+                </div>
+                <div id="btnC">
+                    <p>SSR</p>
+                </div>
+                <div id="btnC">
+                    <p>Pogo</p>
+                </div>
+                <div id="btnC">
+                    <p>Design</p>
+                </div>
+                <div id="btnC">
+                    <p>Logo</p>
+                </div>
+                <div id="btnC">
+                    <p>Mern</p>
+                </div>
+                <div id="btnC">
+                    <p>Developer</p>
+                </div>
+                 <!-- <div id="btnC">
+                    <p>Backend</p>
+                </div>
+                <div id="btnC">
+                    <p>Frondend</p>
+                </div>
+                <div id="btnC">
+                    <p>Spider</p>
+                </div>
+                <div id="btnC">
+                    <p>MongoDb</p>
+                </div>
+                <div id="btnC">
+                    <p>Java</p>
+                </div>
+                <div id="btnC">
+                    <p>T-series</p>
+                </div>
+                <div id="btnC">
+                    <p>Comedy</p>
+                </div>
+                <div id="btnC">
+                    <p>SSR</p>
+                </div>
+                <div id="btnC">
+                    <p>Pogo</p>
+                </div>
+                <div id="btnC">
+                    <p>Design</p>
+                </div>
+                <div id="btnC">
+                    <p>Logo</p>
+                </div>
+                <div id="btnC">
+                    <p>Mern</p>
+                </div>
+                <div id="btnC">
+                    <p>Developer</p>
+                </div>
+                <div id="btnC">
+                    <p>Backend</p>
+                </div>
+                <div id="btnC">
+                    <p>Frondend</p>
+                </div>
+                <div id="btnC">
+                    <p>Spider</p>
+                </div>
+                <div id="btnC">
+                    <p>C++</p>
+                </div>
+                <div id="btnC">
+                    <p>Python</p>
+                </div>
+                <div id="btnC">
+                    <p>programing</p>
+                </div>
+                <div id="btnC">
+                    <p>Node.js</p>
+                </div>
+                <div id="btnC">
+                    <p>React</p>
+                </div>
+                <div id="btnC">
+                    <p>MongoDb</p>
+                </div>
+                <div id="btnC">
+                    <p>Java</p>
+                </div>
+                <div id="btnC">
+                    <p>T-series</p>
+                </div>
+                <div id="btnC">
+                    <p>Comedy</p>
+                </div>
+                <div id="btnC">
+                    <p>SSR</p>
+                </div>
+                <div id="btnC">
+                    <p>Pogo</p>
+                </div>
+                <div id="btnC">
+                    <p>Design</p>
+                </div>
+                <div id="btnC">
+                    <p>Logo</p>
+                </div>
+                <div id="btnC">
+                    <p>Mern</p>
+                </div>
+                <div id="btnC">
+                    <p>Developer</p>
+                </div>
+                <div id="btnC">
+                    <p>Backend</p>
+                </div>
+                <div id="btnC">
+                    <p>Frondend</p>
+                </div>
+                <div id="btnC">
+                    <p>Spider</p>
+                </div>
+                <div id="btnC">
+                    <p>MongoDb</p>
+                </div>
+                <div id="btnC">
+                    <p>Java</p>
+                </div>
+                <div id="btnC">
+                    <p>T-series</p>
+                </div>
+                <div id="btnC">
+                    <p>Comedy</p>
+                </div>
+                <div id="btnC">
+                    <p>Mern</p>
+                </div>
+                <div id="btnC">
+                    <p>Developer</p>
+                </div>
+                <div id="btnC">
+                    <p>Backend</p>
+                </div>
+                <div id="btnC">
+                    <p>Frondend</p>
+                </div>
+                <div id="btnC">
+                    <p>Spider</p>
+                </div>
+                <div id="btnC">
+                    <p>MongoDb</p>
+                </div>
+                <div id="btnC">
+                    <p>Java</p>
+                </div>
+                <div id="btnC">
+                    <p>T-series</p>
+                </div>
+                <div id="btnC">
+                    <p>Comedy</p>
+                </div>
+                <div id="btnC">
+                    <p>Frondend</p>
+                </div>
+                <div id="btnC">
+                    <p>Spider</p>
+                </div> -->
+            </div>
+
+            
+            <div id="content">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>

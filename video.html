@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="video.css">
+</head>
+<body onload="playvideo()">
+    <div id="nav">
+        <div id="logo">
+            <i class="ri-menu-line"></i>
+           <div id="log">
+               <img src="/img/you.png" alt="">
+           </div>
+           <h1 class="logtxt">Youtube</h1>
+        </div>
+        <div id="search">
+            <input type="text" id="query" placeholder="Search">
+            <button class="search" onclick="searchVideos()"><i class="ri-search-line"></i></button>
+            <button class="mic"><i class="ri-mic-fill"></i></button>
+        </div>
+        <div id="bell">
+            <i class="ri-video-add-line"></i>
+            <i class="ri-notification-4-line"></i>
+            <i class="ri-account-circle-fill"></i>
+        </div>
+    </div>
+    <div class="main">
+        <div id="detail">
+            <div id="video"></div>
+            <div id="tit"></div>
+        </div>
+        <div id="recom">
+            <img src="https://i.postimg.cc/s2dPkbTH/data.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>
+<script src="video.js"></script>
